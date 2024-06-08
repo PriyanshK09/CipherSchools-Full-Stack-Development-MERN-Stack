@@ -30,4 +30,7 @@ Assignment 4: Overview of Internet Technologies - June 8, 2024
 Assignment 5: HTML Tags - June 8, 2024
 
 ### - **[Lecture 5 - CSS Selectors](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture5-CipherSchools)**
-Assignment 5: CSS Selectors - June 8, 2024
+Assignment 6: CSS Selectors - June 8, 2024
+
+### - **[Lecture 6 - Javascript Basics (ES6)](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture6-CipherSchools)**
+Assignment 7: Javascript Basics - June 8, 2024

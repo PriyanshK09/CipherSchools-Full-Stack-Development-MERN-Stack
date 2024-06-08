@@ -22,3 +22,6 @@ Assignment 2: Installing NodeJS & Setting up IDE - June 8, 2024
 
 ### - **[Lecture 2 - Exploring Course Structure](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture2-CipherSchools)**
 Assignment 3: Course Structure: Full-Stack Web Development with MERN Stack - June 8, 2024
+
+### - **[Lecture 3 - Overview of Internet Technologies](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture3-CipherSchools)**
+Assignment 4: Overview of Internet Technologies - June 8, 2024

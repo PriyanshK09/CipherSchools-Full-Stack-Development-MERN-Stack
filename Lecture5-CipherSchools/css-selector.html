@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="XA-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors</title>
+  <style>
+    p {
+      text-align: center;
+    }
+    #myparagraph {
+      text-align: center;
+    }
+    .center-paragraph {
+      text-align: center;
+    }
+    * {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1, .center-paragraph, p {
+      text-align: center;
+      color: brown;
+    }
+    div p {
+      background-color: yellow;
+    }
+    div > p {
+      background-color: cyan;
+    }
+    div + p {
+      background-color: yellow;
+    }
+    div ~ p {
+      background-color: yellow;
+    }
+    div ~ p:hover {
+      background-color: yellow;
+    }
+    div ~ p::first-letter {
+      color: red;
+    }
+    a[target] {
+      background-color: cyan;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>This is a test headline</h1>
+    <p class="center-paragraph">
+      This is <u>Priyansh</u>.<br />Shantanu is my Instructor.
+      I am from
+      <span style="color: red">India</span>
+    </p>
+    <div>
+      <p>This is the 2nd paragraph.</p>
+    </div>
+    <hr />
+  </div>
+  <p>Para 0</p>
+  <div>
+    <p>Para 1</p>
+    <p>Para 2</p>
+  </div>
+  <p>Para 3</p>
+  <p>Para 4</p>
+  <div>
+    <a href="https://cipherschools.com">Cipherschool</a>
+    <a href="https://google.com" target="_blank">Google</a>
+  </div>
+  <hr />
+</body>
+</html>

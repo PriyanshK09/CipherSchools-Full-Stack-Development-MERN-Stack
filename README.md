@@ -25,3 +25,6 @@ Assignment 3: Course Structure: Full-Stack Web Development with MERN Stack - Jun
 
 ### - **[Lecture 3 - Overview of Internet Technologies](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture3-CipherSchools)**
 Assignment 4: Overview of Internet Technologies - June 8, 2024
+
+### - **[Lecture 4 - HTML Tags](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture4-CipherSchools)**
+Assignment 5: HTML Tags - June 8, 2024

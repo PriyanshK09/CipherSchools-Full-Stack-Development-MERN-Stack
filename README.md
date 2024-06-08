@@ -19,3 +19,6 @@ The MERN stack has gained immense popularity for its powerful and efficient capa
 
 ### - **[Lecture 1 - Installing IDE](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture1-CipherSchools)**
 1. Assignment 2: Installing NodeJS & Setting up IDE - June 8, 2024
+
+### - **[Lecture 2 - Exploring Course Structure](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture2-CipherSchools)**
+1. Assignment 3: Course Structure: Full-Stack Web Development with MERN Stack - June 8, 2024

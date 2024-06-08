@@ -16,3 +16,4 @@ The MERN stack has gained immense popularity for its powerful and efficient capa
 ## Indexed Assignments:
 ### - **[Lecture 0 - Introduction](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture0-CipherSchools)**
 1. Assignment 1: Introduction to MERN Stack - June 8, 2024
+

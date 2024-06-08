@@ -14,5 +14,5 @@ The MERN stack has gained immense popularity for its powerful and efficient capa
 - **Node.js**: A runtime environment that allows you to run JavaScript code on the server-side.
 
 ## Indexed Assignments:
-### - Lecture 0 - Introduction
-1. **[Assignment 1: Introduction to MERN Stack - June 8, 2024](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture0-CipherSchools)**
+### - **[Lecture 0 - Introduction](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture0-CipherSchools)**
+1. Assignment 1: Introduction to MERN Stack - June 8, 2024

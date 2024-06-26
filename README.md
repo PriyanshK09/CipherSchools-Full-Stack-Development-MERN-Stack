@@ -40,3 +40,6 @@ Assignment 8: DOM Basics - June 26, 2024
 
 ### - **[Lecture 8 - DOM Traversal](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture8-CipherSchools)**
 Assignment 9: DOM Traversal - June 26, 2024
+
+### - **[Lecture 9 - Events](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture9-CipherSchools)**
+Assignment 10: Events - June 26, 2024

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta chaset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Title</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">My Page Title</h1>
+      <p>Nice caption goes here</p>
+
+      <article class="first_article">
+        <h2>List of amazing fruits</h2>
+        <p>Must eat fruits</p>
+        
+        <div class="wrapper-1">
+          <ul class="apple-list">
+            <li class="apple">Apples</li>
+            <li class="orange">Orange</li>
+            <li class="avocado">Avacado</li>
+            <li class="grapes">
+              Grapes
+            <ul>
+                <li class="type-1">Moon drops</li>
+                <li>Sultana</li>
+                <li>Concord</li>
+                <li>Crimson Seedless</li>
+            </ul>
+          </li>
+          <li class="banana">Bananas</li>
+        </ul>
+      
+        <button class="btn-1">Click to know time</button>
+
+        <hr><hr>
+
+        <form action="">
+          <label for="firstName">Name:</label>
+          <input type="text" name="firstName" id="firstName">
+        </form>
+    </main>
+
+    <script>
+      let title=document.querySelector("#title")
+      title.addEventListener("click",()=>{
+        title.innerHTML="This is after click"
+      })
+
+      let button=document.querySelector(".btn-1")
+      button.addEventListener("click",()=>{
+        let date=document.createElement("div")
+        date.innerHTML=new Date();
+        let main=document.querySelector("main");
+        main.appendChild(date);
+      })
+
+      const firstName=document.querySelector("#firstName")
+      firstName.addEventListener("input",()=>{
+        firstName.value=firstName.value.toUpperCase();
+      })
+
+
+      
+    </script>
+  </body>
+</html>

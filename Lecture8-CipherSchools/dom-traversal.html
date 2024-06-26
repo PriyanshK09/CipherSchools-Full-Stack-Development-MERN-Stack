@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta chaset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Title</title>
+</head>
+
+<body>
+  <main>
+    <h1>My Page Title</h1>
+    <p>Nice caption goes here</p>
+
+    <article class="first_article">
+      <h2>List of amazing fruits</h2>
+      <p>Must eat fruits</p>
+
+      <div class="wrapper-1">
+        <ul class="apple-list">
+          <li class="apple">Apples</li>
+          <li class="orange">Orange</li>
+          <li class="avocado">Avacado</li>
+          <li class="grapes">
+            Grapes
+            <ul>
+              <li class="type-1">Moon drops</li>
+              <li>Sultana</li>
+              <li>Concord</li>
+              <li>Crimson Seedless</li>
+            </ul>
+          </li>
+          <li class="banana">Bananas</li>
+        </ul>
+
+        <h2>This is second h2</h2>
+
+        <button class="btn-1">Read full list</button>
+  </main>
+
+  <script>
+    let heading = document.querySelectorAll("h2");
+    const firstHeading = heading[0];
+
+    console.log(firstHeading)
+    const secondHeading = heading[1];
+    console.log(secondHeading)
+
+    const orange=document.querySelector(".orange").innerHTML;
+    console.log(orange)
+
+    const listchil=document.createElement("li")
+    listchil.innerText="masumi"
+
+    const appleList=document.querySelector(".apple-list").appendChild(listchil)
+    // console.log(appleList)
+    // console.log(appleList[0])
+    // console.log(appleList)
+
+    let lastchi=document.querySelector(".apple-list").lastElementChild;
+    console.log(lastchi)
+
+    let firstchi=document.querySelector(".apple-list").firstElementChild;
+    console.log(firstchi.innerText)
+
+    let parNode=document.querySelector(".apple-list")
+    console.log(parNode.parentNode) 
+    console.log(parNode.parentElement) 
+
+    const prevSibling=document.querySelector(".orange").previousElementSibling;
+    console.log(prevSibling)
+
+    const nextSibling=document.querySelector(".orange").nextElementSibling;
+    console.log(nextSibling)
+
+    
+  </script>
+
+</body>
+
+</html>

@@ -36,4 +36,7 @@ Assignment 6: CSS Selectors - June 8, 2024
 Assignment 7: Javascript Basics - June 8, 2024
 
 ### - **[Lecture 7 - DOM (Document Object Model)](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture7-CipherSchools)**
-Assignment 8: Javascript Basics - June 26, 2024
+Assignment 8: DOM Basics - June 26, 2024
+
+### - **[Lecture 8 - DOM Traversal](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture8-CipherSchools)**
+Assignment 9: DOM Traversal - June 26, 2024

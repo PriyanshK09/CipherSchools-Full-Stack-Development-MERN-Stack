@@ -43,3 +43,6 @@ Assignment 9: DOM Traversal - June 26, 2024
 
 ### - **[Lecture 9 - Events](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture9-CipherSchools)**
 Assignment 10: Events - June 26, 2024
+
+### - **[Lecture 10 - Object Oriented Javascript](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture10-CipherSchools)**
+Assignment 11: OOP Javascript - June 26, 2024

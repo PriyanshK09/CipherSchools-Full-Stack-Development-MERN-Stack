@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object Oriented JavaScript Assignment</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    pre {
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+    code {
+      display: block;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Object Oriented JavaScript Assignment</h1>
+
+    <h2>Person Object</h2>
+    <pre id="person-output"></pre>
+
+    <h2>Person Constructor Function</h2>
+    <pre id="person-constructor-output"></pre>
+
+    <h2>Object.create() Example</h2>
+    <pre id="object-create-output"></pre>
+
+    <h2>Class and Prototype Example</h2>
+    <pre id="class-prototype-output"></pre>
+
+    <h2>Inheritance Example</h2>
+    <pre id="inheritance-output"></pre>
+  </div>
+
+  <script>
+    // Person Object
+    let person = {
+      firstName: "Shantanu",
+      lastName: "Shubham",
+      getFullName: function() {
+        return `The name of the person is ${this.firstName} ${this.lastName}`;
+      },
+      phoneNumber: {
+        mobile: "12345",
+        landline: "6789"
+      }
+    };
+
+    document.getElementById('person-output').innerHTML = `
+      <code>let person = {
+        firstName: "Shantanu",
+        lastName: "Shubham",
+        getFullName: function() {
+          return \`The name of the person is \${this.firstName} \${this.lastName}\`;
+        },
+        phoneNumber: {
+          mobile: "12345",
+          landline: "6789"
+        }
+      };</code>
+      <br>
+      person.getFullName(): ${person.getFullName()}<br>
+      person.phoneNumber.landline: ${person.phoneNumber.landline}
+    `;
+
+    // Person Constructor Function
+    function Person(firstName, lastName) {
+      this.firstName = firstName;
+      this.lastName = lastName;
+    }
+
+    let person3 = new Person("Shantanu", "Shubham");
+    let person2 = new Person("Anurag", "Mishra");
+
+    document.getElementById('person-constructor-output').innerHTML = `
+      <code>function Person(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+      }</code>
+      <br>
+      <code>let person3 = new Person("Shantanu", "Shubham");<br>
+      let person2 = new Person("Anurag", "Mishra");</code><br>
+      person3.firstName: ${person3.firstName}<br>
+      person2.firstName: ${person2.firstName}<br>
+      person2.lastName: ${person2.lastName}
+    `;
+
+    // Object.create() Example
+    const coder = {
+      isStudying: false,
+      printIntroduction: function() {
+        return `My name is ${this.name}. Am I studying? ${this.isStudying}`;
+      }
+    };
+
+    const me = Object.create(coder);
+    me.name = "Shantanu Shubham";
+    me.isStudying = true;
+    const introduction = me.printIntroduction();
+
+    document.getElementById('object-create-output').innerHTML = `
+      <code>const coder = {
+        isStudying: false,
+        printIntroduction: function() {
+          return \`My name is \${this.name}. Am I studying? \${this.isStudying}\`;
+        }
+      };</code>
+      <br>
+      <code>const me = Object.create(coder);<br>
+      me.name = "Shantanu Shubham";<br>
+      me.isStudying = true;</code><br>
+      me.printIntroduction(): ${introduction}
+    `;
+
+    // Class and Prototype Example
+    class Vehicle {
+      constructor(name, maker, engine) {
+        this.name = name;
+        this.maker = maker;
+        this.engine = engine;
+      }
+
+      getDetails() {
+        return `The name of the vehicle is ${this.name}`;
+      }
+    }
+
+    let v4 = new Vehicle("Creta", "Hyundai", "2500cc");
+    let v5 = new Vehicle("Q5", "Audi", "3000cc");
+
+    document.getElementById('class-prototype-output').innerHTML = `
+      <code>class Vehicle {
+        constructor(name, maker, engine) {
+          this.name = name;
+          this.maker = maker;
+          this.engine = engine;
+        }
+
+        getDetails() {
+          return \`The name of the vehicle is \${this.name}\`;
+        }
+      }</code>
+      <br>
+      <code>let v4 = new Vehicle("Creta", "Hyundai", "2500cc");<br>
+      let v5 = new Vehicle("Q5", "Audi", "3000cc");</code><br>
+      v4.name: ${v4.name}<br>
+      v5.maker: ${v5.maker}<br>
+      v4.getDetails(): ${v4.getDetails()}
+    `;
+
+    // Inheritance Example
+    class PersonClass {
+      constructor(firstName, lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+      }
+
+      getDetails_Access() {
+        return `The first name is: ${this.firstName} and last name is: ${this.lastName}`;
+      }
+    }
+
+    class Student extends PersonClass {
+      constructor(firstName, lastName, rollNumber) {
+        super(firstName, lastName);
+        this.rollNumber = rollNumber;
+      }
+
+      getDetails_Access() {
+        return `The first name is: ${this.firstName}, last name is: ${this.lastName}, and roll number is: ${this.rollNumber}`;
+      }
+    }
+
+    let person1 = new PersonClass("Shantanu", "Shubham");
+    let student1 = new Student("Anurag", "Mishra", 20);
+
+    document.getElementById('inheritance-output').innerHTML = `
+      <code>class PersonClass {
+        constructor(firstName, lastName) {
+          this.firstName = firstName;
+          this.lastName = lastName;
+        }
+
+        getDetails_Access() {
+          return \`The first name is: \${this.firstName} and last name is: \${this.lastName}\`;
+        }
+      }</code>
+      <br>
+      <code>class Student extends PersonClass {
+        constructor(firstName, lastName, rollNumber) {
+          super(firstName, lastName);
+          this.rollNumber = rollNumber;
+        }
+
+        getDetails_Access() {
+          return \`The first name is: \${this.firstName}, last name is: \${this.lastName}, and roll number is: \${this.rollNumber}\`;
+        }
+      }</code><br>
+      <code>let person1 = new PersonClass("Shantanu", "Shubham");<br>
+      let student1 = new Student("Anurag", "Mishra", 20);</code><br>
+      person1.firstName: ${person1.firstName}<br>
+      person1.getDetails_Access(): ${person1.getDetails_Access()}<br>
+      student1.getDetails_Access(): ${student1.getDetails_Access()}
+    `;
+  </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Traversal Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1, h2 {
+      color: #333;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+    ul, ol {
+      margin-left: 20px;
+    }
+    .item {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>DOM Traversal Example</h1>
+
+    <h2>Elements to Traverse</h2>
+    <ul id="unordered-list">
+      <li class="item">Item 1</li>
+      <li class="item">Item 2
+        <ul>
+          <li class="subitem">Subitem 2.1</li>
+          <li class="subitem">Subitem 2.2</li>
+        </ul>
+      </li>
+      <li class="item">Item 3</li>
+    </ul>
+    
+    <ol id="ordered-list">
+      <li class="item">Item A</li>
+      <li class="item">Item B</li>
+      <li class="item">Item C</li>
+    </ol>
+
+    <p id="para">This is a paragraph to demonstrate sibling traversal.</p>
+    <p id="next-para">This is the next paragraph.</p>
+
+    <h2>Form Example</h2>
+    <form name="val">
+      <input name="name" value="Priyansh">
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <script>
+    // Traversing child nodes
+    const ul = document.getElementById('unordered-list');
+    const firstItem = ul.firstElementChild;
+    console.log('First item:', firstItem.textContent);
+    
+    // Traversing parent nodes
+    const subitem = document.querySelector('.subitem');
+    const parentItem = subitem.closest('.item');
+    console.log('Parent of subitem:', parentItem.textContent);
+    
+    // Traversing sibling nodes
+    const para = document.getElementById('para');
+    const nextPara = para.nextElementSibling;
+    console.log('Next sibling:', nextPara.textContent);
+    
+    // Highlight the next sibling
+    nextPara.classList.add('highlight');
+
+    // Accessing form input value using form name and input name
+    console.log('Form input value:', document.val.name.value);
+
+    // Traversing all list items
+    const allItems = document.querySelectorAll('.item');
+    allItems.forEach(item => {
+      console.log('List item:', item.textContent);
+    });
+
+    // Highlight all subitems
+    const subitems = document.querySelectorAll('.subitem');
+    subitems.forEach(subitem => {
+      subitem.classList.add('highlight');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation</title>
+</head>
+<body>
+  <h1>DOM Manipulation Examples</h1>
+  
+  <!-- Example of document.write() and document.writeln() -->
+  <script>
+    document.write("Priyansh Khare");
+    document.writeln(" Shubham");
+  </script>
+  
+  <!-- Example of HTML structure to interact with using DOM -->
+  <div>
+    <p name="cipherPara">Para 1</p>
+    <p>Para 2</p>
+    <p>Para 3</p>
+    <div>
+      <a href="https://cipherschools.com">CipherSchools</a>
+      <a href="https://google.com" target="_blank">Google</a>
+    </div>
+  </div>
+  <hr />
+
+  <!-- Example of form interaction using DOM -->
+  <form name="val">
+    <input name="name" value="Priyansh">
+  </form>
+  
+  <script>
+    // Accessing the paragraph with name attribute
+    console.log(document.getElementsByName('cipherPara')[0].textContent);
+    
+    // Accessing form input value using form name and input name
+    console.log(document.val.name.value);
+  </script>
+</body>
+</html>

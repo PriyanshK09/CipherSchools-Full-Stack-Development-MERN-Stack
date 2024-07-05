@@ -46,3 +46,6 @@ Assignment 10: Events - June 26, 2024
 
 ### - **[Lecture 10 - Object Oriented Javascript](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture10-CipherSchools)**
 Assignment 11: OOP Javascript - June 26, 2024
+
+### - **[Lecture 11 - Object Oriented Javascript](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture11-CipherSchools)**
+Assignment 12: OOP Javascript - Jul 5, 2024

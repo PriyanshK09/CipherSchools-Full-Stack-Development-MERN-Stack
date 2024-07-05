@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction to MERN Stack</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding-top: 30px;
+      min-height: 70px;
+      border-bottom: #77aaff 3px solid;
+    }
+    header a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    header ul {
+      padding: 0;
+      list-style: none;
+    }
+    header li {
+      display: inline;
+      padding: 0 20px 0 20px;
+    }
+    header #branding {
+      float: left;
+    }
+    header #branding h1 {
+      margin: 0;
+    }
+    header nav {
+      float: right;
+      margin-top: 10px;
+    }
+    section {
+      padding: 20px;
+      margin: 20px 0;
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+      border-top: #77aaff 3px solid;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1>Introduction to MERN Stack</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#frontend">Frontend</a></li>
+          <li><a href="#backend">Backend</a></li>
+          <li><a href="#fullstack">Full-Stack</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="intro">
+    <div class="container">
+      <h2>What is the MERN Stack?</h2>
+      <p>The MERN stack is a popular set of technologies used to develop full-stack web applications. It consists of MongoDB, Express.js, React.js, and Node.js. These technologies provide a powerful and efficient way to build dynamic web applications with a single programming language: JavaScript.</p>
+    </div>
+  </section>
+
+  <section id="frontend">
+    <div class="container">
+      <h2>Frontend Development</h2>
+      <p>Frontend development involves creating the part of the website that users interact with directly. It focuses on the look and feel of the application. In the MERN stack, React.js is used for frontend development.</p>
+      <h3>React.js</h3>
+      <p>React.js is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of the application efficiently.</p>
+      <p>Why React.js?</p>
+      <ul>
+        <li>Component-Based Architecture</li>
+        <li>Efficient Rendering with Virtual DOM</li>
+        <li>Strong Community Support</li>
+      </ul>
+      <p>How it works:</p>
+      <p>React.js allows you to build encapsulated components that manage their own state and compose them to make complex UIs. It efficiently updates and renders the right components when data changes.</p>
+    </div>
+  </section>
+
+  <section id="backend">
+    <div class="container">
+      <h2>Backend Development</h2>
+      <p>Backend development involves creating the server-side logic that powers the web application. It focuses on database interactions, server-side logic, authentication, and API creation. In the MERN stack, MongoDB, Express.js, and Node.js are used for backend development.</p>
+      <h3>Node.js</h3>
+      <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows you to run JavaScript on the server, enabling you to build scalable network applications.</p>
+      <p>Why Node.js?</p>
+      <ul>
+        <li>Non-Blocking, Asynchronous Architecture</li>
+        <li>Single Programming Language (JavaScript) for Both Client and Server</li>
+        <li>Large Ecosystem of Packages (npm)</li>
+      </ul>
+      <h3>Express.js</h3>
+      <p>Express.js is a minimal and flexible Node.js web application framework. It provides a robust set of features to develop web and mobile applications.</p>
+      <p>Why Express.js?</p>
+      <ul>
+        <li>Easy to Set Up and Use</li>
+        <li>Middleware for Handling Requests</li>
+        <li>Flexible and Scalable</li>
+      </ul>
+      <h3>MongoDB</h3>
+      <p>MongoDB is a NoSQL database that stores data in flexible, JSON-like documents. It allows you to store data in a schema-less format, making it easy to work with.</p>
+      <p>Why MongoDB?</p>
+      <ul>
+        <li>Flexible Document Structure</li>
+        <li>High Performance and Scalability</li>
+        <li>Powerful Query Language</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="fullstack">
+    <div class="container">
+      <h2>Full-Stack Development</h2>
+      <p>Full-stack development involves working on both the frontend and backend of a web application. As a full-stack developer, you need to have a good understanding of both client-side and server-side technologies.</p>
+      <p>In a MERN stack application, the frontend and backend communicate through HTTP requests. The frontend sends requests to the backend, which processes them and sends back responses. This is typically done using RESTful APIs.</p>
+      <h3>How Frontend and Backend Work Together</h3>
+      <p>1. The user interacts with the frontend (React.js) through a web browser.</p>
+      <p>2. The frontend makes HTTP requests to the backend (Express.js and Node.js) to fetch or update data.</p>
+      <p>3. The backend interacts with the database (MongoDB) to retrieve or store data.</p>
+      <p>4. The backend sends the response back to the frontend, which updates the UI accordingly.</p>
+      <p>This interaction allows for dynamic and responsive web applications that provide a seamless user experience.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>Introduction to MERN Stack by Priyansh Khare</p>
+    </div>
+  </footer>
+</body>
+</html>

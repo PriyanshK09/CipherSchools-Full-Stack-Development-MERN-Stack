@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adding the First Component</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Adding the First Component</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction</h2>
+    <p>In this section, we will add our first React component to the application. Components are the building blocks of React applications and help in creating reusable UI elements.</p>
+  </section>
+
+  <section class="container">
+    <h2>Creating a Functional Component</h2>
+    <p>Functional components are simple functions that return HTML elements. They are easy to write and understand. Below is an example of a simple functional component:</p>
+    <pre>
+      <code>
+import React from 'react';
+
+function Greeting() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;Hello, welcome to our React app!&lt;/h1&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default Greeting;
+      </code>
+    </pre>
+    <p>In this example, the <code>Greeting</code> component returns a <code>div</code> containing a <code>h1</code> element.</p>
+  </section>
+
+  <section class="container">
+    <h2>Using the Component in App.js</h2>
+    <p>Once we have created our component, we can use it in our main <code>App</code> component. Here's how we can do that:</p>
+    <pre>
+      <code>
+import React from 'react';
+import Greeting from './Greeting';
+
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;Greeting /&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+      </code>
+    </pre>
+    <p>In this example, we import the <code>Greeting</code> component and use it within the <code>App</code> component by including it in the JSX with <code>&lt;Greeting /&gt;</code>.</p>
+  </section>
+
+  <footer>
+    <p>Adding the First Component by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

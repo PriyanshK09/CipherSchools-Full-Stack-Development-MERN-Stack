@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understanding JSX</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding JSX</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction to JSX</h2>
+    <p>JSX (JavaScript XML) is a syntax extension for JavaScript that is commonly used with React to describe what the UI should look like. JSX may look like HTML, but it's not exactly HTML. It allows you to write HTML-like code within JavaScript, making it easier to create and visualize React components.</p>
+  </section>
+
+  <section class="container">
+    <h2>JSX Syntax</h2>
+    <p>Here is an example of a simple JSX element:</p>
+    <pre>
+      <code>
+const element = &lt;h1&gt;Hello, world!&lt;/h1&gt;;
+      </code>
+    </pre>
+    <p>This JSX code will be compiled to:</p>
+    <pre>
+      <code>
+const element = React.createElement('h1', null, 'Hello, world!');
+      </code>
+    </pre>
+  </section>
+
+  <section class="container">
+    <h2>Embedding Expressions in JSX</h2>
+    <p>You can embed any JavaScript expression in JSX by wrapping it in curly braces:</p>
+    <pre>
+      <code>
+const name = 'Priyansh Khare';
+const element = &lt;h1&gt;Hello, {name}!&lt;/h1&gt;;
+      </code>
+    </pre>
+    <p>This allows you to dynamically render content based on your JavaScript variables.</p>
+  </section>
+
+  <section class="container">
+    <h2>JSX Attributes</h2>
+    <p>You can use quotes to specify string literals as attributes, and curly braces to embed a JavaScript expression:</p>
+    <pre>
+      <code>
+const element = &lt;img src="https://example.com/logo.png" alt="Example Logo" /&gt;;
+const element = &lt;img src={user.avatarUrl} alt={user.name} /&gt;;
+      </code>
+    </pre>
+  </section>
+
+  <section class="container">
+    <h2>JSX Children</h2>
+    <p>If a tag is empty, you can close it immediately with <code>/&gt;</code> like XML:</p>
+    <pre>
+      <code>
+const element = &lt;img src="https://example.com/logo.png" alt="Example Logo" /&gt;;
+      </code>
+    </pre>
+    <p>JSX tags can contain children:</p>
+    <pre>
+      <code>
+const element = (
+  &lt;div&gt;
+    &lt;h1&gt;Hello!&lt;/h1&gt;
+    &lt;h2&gt;Good to see you here.&lt;/h2&gt;
+  &lt;/div&gt;
+);
+      </code>
+    </pre>
+  </section>
+
+  <section class="container">
+    <h2>Conditional Rendering</h2>
+    <p>You can embed any JavaScript expression in JSX by wrapping it in curly braces. This includes the conditional (ternary) operator:</p>
+    <pre>
+      <code>
+const isLoggedIn = true;
+const element = (
+  &lt;div&gt;
+    {isLoggedIn ? &lt;h1&gt;Welcome back!&lt;/h1&gt; : &lt;h1&gt;Please sign in.&lt;/h1&gt;}
+  &lt;/div&gt;
+);
+      </code>
+    </pre>
+  </section>
+
+  <footer>
+    <p>Understanding JSX by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

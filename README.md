@@ -52,3 +52,6 @@ Assignment 12: Introduction to MERN - Jul 5, 2024
 
 ### - **[Lecture 12 - MERN Stack Overview](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture12-CipherSchools)**
 Assignment 13: MERN Stack Overview - Jul 11, 2024
+
+### - **[Lecture 12 - Setting up the environment](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture13-CipherSchools)**
+Assignment 14: Setting up the environment - Jul 11, 2024

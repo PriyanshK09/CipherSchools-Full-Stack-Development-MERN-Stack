@@ -71,8 +71,11 @@ Assignment 18: Understanding React Components - Jul 11, 2024
 ### - **[Lecture 18 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture18-CipherSchools)**
 Assignment 19: Adding the first component - Jul 11, 2024
 
-### - **[Lecture 19 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-ToDoList-CipherSchools)**
+### - **[Lecture 19 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-ToDoList-CipherSchools/todoapp)**
 Assignment 20: Adding the first component - Jul 11, 2024
 
-### - **[Lecture 20 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-ToDoList-CipherSchools)**
+### - **[Lecture 20 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-ToDoList-CipherSchools/todoapp)**
 Assignment 21: Adding the first component - Jul 11, 2024
+
+### - **[Lecture 21 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-ToDoList-CipherSchools/todoapp)**
+Assignment 22: Adding the first component - Jul 11, 2024

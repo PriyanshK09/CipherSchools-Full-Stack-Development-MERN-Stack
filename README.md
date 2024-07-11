@@ -64,3 +64,6 @@ Assignment 16: Explain Folder Structure - Jul 11, 2024
 
 ### - **[Lecture 16 - Understanding JSX](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture16-CipherSchools)**
 Assignment 17: Understanding JSX - Jul 11, 2024
+
+### - **[Lecture 17 - Understanding React Components](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture17-CipherSchools)**
+Assignment 18: Understanding React Components - Jul 11, 2024

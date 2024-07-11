@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Understanding React Components</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Understanding React Components</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction to React Components</h2>
+    <p>React components are the building blocks of a React application's UI. A component is a self-contained module that renders some output. We can write functional components using functions or class components using ES6 classes.</p>
+  </section>
+
+  <section class="container">
+    <h2>Class Components</h2>
+    <p>Class components are ES6 classes that extend from <code>React.Component</code>. They must have a <code>render()</code> method which returns HTML (using JSX) to be displayed in the UI.</p>
+    <pre>
+      <code>
+import { Component } from "react";
+
+class App extends Component {
+  name = "Shravan";
+
+  render() {
+    return (
+      <>
+        <div>
+          <h1 style={{ color: "red", textAlign: "center" }}>
+            Hello from me {this.name}
+          </h1>
+          <p style={{ color: "blue", textAlign: "center" }}>
+            hellooo
+          </p> 
+        </div>
+        <div>
+          <p>This is a paragraph and the name is: {this.name}</p>
+        </div>
+      </>
+    );
+  }
+}
+
+export default App;
+      </code>
+    </pre>
+    <p>In the example above, we define a class component <code>App</code> that renders some JSX. The <code>name</code> property is used within the JSX to dynamically display content.</p>
+  </section>
+
+  <section class="container">
+    <h2>JSX in Class Components</h2>
+    <p>JSX allows us to write HTML elements in JavaScript and place them in the DOM without using functions like <code>createElement()</code> or <code>appendChild()</code>. In the <code>App</code> component, we use JSX to create and style HTML elements:</p>
+    <pre>
+      <code>
+&lt;div&gt;
+  &lt;h1 style={{ color: "red", textAlign: "center" }}&gt;
+    Hello from me {this.name}
+  &lt;/h1&gt;
+  &lt;p style={{ color: "blue", textAlign: "center" }}&gt;
+    hellooo
+  &lt;/p&gt; 
+&lt;/div&gt;
+&lt;div&gt;
+  &lt;p&gt;This is a paragraph and the name is: {this.name}&lt;/p&gt;
+&lt;/div&gt;
+      </code>
+    </pre>
+    <p>JSX makes it easier to write and add HTML in React. Each component must return a single root element, which is why we use the React fragment syntax <code>&lt;&gt;...&lt;/&gt;</code> to wrap multiple elements.</p>
+  </section>
+
+  <footer>
+    <p>Understanding React Components by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

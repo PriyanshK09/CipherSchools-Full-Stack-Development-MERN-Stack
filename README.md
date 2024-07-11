@@ -58,3 +58,6 @@ Assignment 14: Setting up the environment - Jul 11, 2024
 
 ### - **[Lecture 14 - Using Create React App](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture14-CipherSchools)**
 Assignment 15: Using Create React App - Jul 11, 2024
+
+### - **[Lecture 15 - Explain Folder Structure](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture15-CipherSchools)**
+Assignment 16: Explain Folder Structure - Jul 11, 2024

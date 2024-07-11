@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React App Folder Structure</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>React App Folder Structure</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction</h2>
+    <p>Understanding the folder structure of a React application is crucial for effective development and maintenance. When you create a new React app using Create React App, it comes with a well-organized folder structure. Let's explore the main components of this structure.</p>
+  </section>
+
+  <section class="container">
+    <h2>Folder Structure Overview</h2>
+    <pre>
+<code>
+my-react-app/
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── App.css
+│   ├── App.js
+│   ├── App.test.js
+│   ├── index.css
+│   ├── index.js
+│   ├── logo.svg
+│   ├── reportWebVitals.js
+│   └── setupTests.js
+├── .gitignore
+├── package.json
+├── README.md
+└── yarn.lock / package-lock.json
+</code>
+    </pre>
+  </section>
+
+  <section class="container">
+    <h2>Detailed Explanation</h2>
+    <h3>node_modules/</h3>
+    <p>This folder contains all the project dependencies installed via npm. You typically don't need to worry about its contents, as it is managed by npm or yarn.</p>
+
+    <h3>public/</h3>
+    <p>The public directory contains the static assets of your application.</p>
+    <ul>
+      <li><code>favicon.ico</code>: The favicon of your app.</li>
+      <li><code>index.html</code>: The main HTML file that is served when your app is requested.</li>
+      <li><code>logo192.png</code> and <code>logo512.png</code>: Default logos used for various purposes.</li>
+      <li><code>manifest.json</code>: A file used for configuring PWA (Progressive Web App) settings.</li>
+      <li><code>robots.txt</code>: Instructions for search engine crawlers.</li>
+    </ul>
+
+    <h3>src/</h3>
+    <p>The source directory contains the main source code of your application.</p>
+    <ul>
+      <li><code>App.css</code>: The CSS file for styling the App component.</li>
+      <li><code>App.js</code>: The main App component.</li>
+      <li><code>App.test.js</code>: The test file for the App component.</li>
+      <li><code>index.css</code>: The CSS file for global styles.</li>
+      <li><code>index.js</code>: The entry point of the React application. It renders the App component into the DOM.</li>
+      <li><code>logo.svg</code>: The React logo.</li>
+      <li><code>reportWebVitals.js</code>: A file for measuring the performance of your app.</li>
+      <li><code>setupTests.js</code>: A file for setting up tests.</li>
+    </ul>
+
+    <h3>Root Files</h3>
+    <ul>
+      <li><code>.gitignore</code>: Specifies which files and directories to ignore in Git.</li>
+      <li><code>package.json</code>: Contains metadata about the project and lists dependencies.</li>
+      <li><code>README.md</code>: Contains project documentation.</li>
+      <li><code>yarn.lock / package-lock.json</code>: Ensures consistent installations across different environments.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>React App Folder Structure by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

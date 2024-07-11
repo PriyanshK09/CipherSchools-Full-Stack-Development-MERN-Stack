@@ -79,3 +79,6 @@ Assignment 21: Adding the first component - Jul 11, 2024
 
 ### - **[Lecture 21 - Adding the first component](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture19-20-21-ToDoList-CipherSchools/todoapp)**
 Assignment 22: Adding the first component - Jul 11, 2024
+
+### - **[Lecture 22 - Getting User Input](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture22-CipherSchools)**
+Assignment 23: Getting User Input - Jul 11, 2024

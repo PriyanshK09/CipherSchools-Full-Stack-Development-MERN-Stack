@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Getting User Input in React</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 10px;
+      border: 1px solid #ddd;
+      overflow-x: auto;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+    input[type="text"], button {
+      padding: 10px;
+      margin: 10px 0;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Getting User Input in React</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction</h2>
+    <p>In this section, we will learn how to get user input in a React application. Handling user input is a crucial part of building interactive web applications.</p>
+  </section>
+
+  <section class="container">
+    <h2>Creating a Form Component</h2>
+    <p>We will create a simple form component to get user input and display it. Below is the code for the <code>InputForm</code> component:</p>
+    <pre>
+      <code>
+import React, { useState } from 'react';
+
+function InputForm() {
+  const [name, setName] = useState('');
+
+  const handleChange = (e) => {
+    setName(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert('The name you entered is: ' + name);
+  };
+
+  return (
+    &lt;form onSubmit={handleSubmit}&gt;
+      &lt;input
+        type="text"
+        value={name}
+        onChange={handleChange}
+        placeholder="Enter your name"
+      /&gt;
+      &lt;button type="submit"&gt;Submit&lt;/button&gt;
+    &lt;/form&gt;
+  );
+}
+
+export default InputForm;
+      </code>
+    </pre>
+    <p>In this example, we use the <code>useState</code> hook to manage the state of the input field. The <code>handleChange</code> function updates the state with the value entered by the user, and the <code>handleSubmit</code> function handles the form submission.</p>
+  </section>
+
+  <section class="container">
+    <h2>Using the Form Component in App.js</h2>
+    <p>Now, we will use the <code>InputForm</code> component in our main <code>App</code> component. Here's how we can do that:</p>
+    <pre>
+      <code>
+import React from 'react';
+import InputForm from './InputForm';
+
+function App() {
+  return (
+    &lt;div&gt;
+      &lt;h1&gt;User Input Form&lt;/h1&gt;
+      &lt;InputForm /&gt;
+    &lt;/div&gt;
+  );
+}
+
+export default App;
+      </code>
+    </pre>
+    <p>In this example, we import the <code>InputForm</code> component and use it within the <code>App</code> component by including it in the JSX with <code>&lt;InputForm /&gt;</code>.</p>
+  </section>
+
+  <footer>
+    <p>Getting User Input by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

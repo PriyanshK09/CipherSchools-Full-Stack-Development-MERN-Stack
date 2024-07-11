@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Using Create React App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 20px;
+      background: #fff;
+      margin: 20px 0;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      border-top: #77aaff 3px solid;
+      margin-top: 20px;
+    }
+    h2 {
+      color: #333;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    code {
+      background: #f4f4f4;
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Using Create React App</h1>
+  </header>
+
+  <section class="container">
+    <h2>Introduction</h2>
+    <p>Create React App is an officially supported way to create single-page React applications. It offers a modern build setup with no configuration.</p>
+  </section>
+
+  <section class="container">
+    <h2>Step 1: Install Node.js and npm</h2>
+    <p>If you haven't already installed Node.js and npm, follow these steps:</p>
+    <ol>
+      <li>Visit the <a href="https://nodejs.org/" target="_blank">Node.js website</a>.</li>
+      <li>Download the LTS (Long Term Support) version for your operating system.</li>
+      <li>Follow the installation instructions provided by the installer.</li>
+      <li>Verify the installation by running the following commands in your terminal:</li>
+    </ol>
+    <pre><code>node -v
+npm -v</code></pre>
+  </section>
+
+  <section class="container">
+    <h2>Step 2: Install Create React App</h2>
+    <p>To create a new React application, you need to install Create React App globally.</p>
+    <ol>
+      <li>Open your terminal and run the following command:</li>
+    </ol>
+    <pre><code>npx create-react-app my-react-app</code></pre>
+    <p>This command creates a new directory called <code>my-react-app</code> with all the necessary files and dependencies.</p>
+  </section>
+
+  <section class="container">
+    <h2>Step 3: Navigate to Your Project Directory</h2>
+    <p>After the installation is complete, navigate to your project directory:</p>
+    <pre><code>cd my-react-app</code></pre>
+  </section>
+
+  <section class="container">
+    <h2>Step 4: Start the Development Server</h2>
+    <p>To start the development server, run the following command:</p>
+    <pre><code>npm start</code></pre>
+    <p>This command opens your new React application in the browser at <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</p>
+  </section>
+
+  <section class="container">
+    <h2>Step 5: Edit Your React Application</h2>
+    <p>You can now start editing your React application. The main file to start with is <code>src/App.js</code>.</p>
+    <pre><code>import React from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+  );
+}
+
+export default App;</code></pre>
+  </section>
+
+  <footer>
+    <p>Using Create React App by Priyansh Khare</p>
+  </footer>
+</body>
+</html>

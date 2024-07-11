@@ -82,3 +82,6 @@ Assignment 22: Adding the first component - Jul 11, 2024
 
 ### - **[Lecture 22 - Getting User Input](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture22-CipherSchools)**
 Assignment 23: Getting User Input - Jul 11, 2024
+
+### - **[Lecture 23 - Handling Events](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture23-CipherSchools)**
+Assignment 24: Handling Events - Jul 11, 2024

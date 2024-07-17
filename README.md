@@ -91,3 +91,6 @@ Assignment 25: Two-way Binding - Jul 11, 2024
 
 ### - **[Lecture 25 - Two-way Binding](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture25-CipherSchools)**
 Assignment 26: Routing in React - Jul 17, 2024
+
+### - **[Lecture 26 - Two-way Binding](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture26-CipherSchools)**
+Assignment 27: Routing in React - Jul 17, 2024

@@ -109,3 +109,6 @@ Assignment 31: Setting up the environment - Jul 18, 2024
 
 ### - **[Lecture 31 - Creating a Node Server](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture31-CipherSchools)**
 Assignment 32: Creating a Node Server - Jul 18, 2024
+
+### - **[Lecture 32 - RESTful API](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture32-CipherSchools)**
+Assignment 33: RESTful API - Jul 18, 2024

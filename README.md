@@ -89,8 +89,14 @@ Assignment 24: Handling Events - Jul 11, 2024
 ### - **[Lecture 24 - Two-way Binding](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture24-CipherSchools)**
 Assignment 25: Two-way Binding - Jul 11, 2024
 
-### - **[Lecture 25 - Two-way Binding](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture25-CipherSchools)**
+### - **[Lecture 25 - Routing in React](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture25-CipherSchools)**
 Assignment 26: Routing in React - Jul 17, 2024
 
-### - **[Lecture 26 - Two-way Binding](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture26-CipherSchools)**
-Assignment 27: Routing in React - Jul 17, 2024
+### - **[Lecture 26 - Introduction to Context](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture26-CipherSchools)**
+Assignment 27: Introduction to Context - Jul 17, 2024
+
+### - **[Lecture 27 - Basic Functionalities on Tasks](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture27-CipherSchools)**
+Assignment 28: Basic Functionalities on Tasks - Jul 17, 2024
+
+### - **[Lecture 28 - Project](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture28-CipherSchools)**
+Assignment 29: Project - Jul 17, 2024

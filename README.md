@@ -99,4 +99,7 @@ Assignment 27: Introduction to Context - Jul 17, 2024
 Assignment 28: Basic Functionalities on Tasks - Jul 17, 2024
 
 ### - **[Lecture 28 - Project](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture28-CipherSchools)**
-Assignment 29: Project - Jul 17, 2024
+Assignment 29: Project - Jul 18, 2024
+
+### - **[Lecture 29 - Introduction to Node.js](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture29-CipherSchools)**
+Assignment 30: Introduction to Node.js - Jul 18, 2024

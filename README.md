@@ -106,3 +106,6 @@ Assignment 30: Introduction to Node.js - Jul 18, 2024
 
 ### - **[Lecture 30 - Setting up the environment](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture30-CipherSchools)**
 Assignment 31: Setting up the environment - Jul 18, 2024
+
+### - **[Lecture 31 - Creating a Node Server](https://github.com/PriyanshK09/CipherSchools-Full-Stack-Development-MERN-Stack/tree/main/Lecture31-CipherSchools)**
+Assignment 32: Creating a Node Server - Jul 18, 2024
